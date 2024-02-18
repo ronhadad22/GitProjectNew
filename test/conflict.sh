@@ -26,6 +26,7 @@ fi
 PORT_HASH=$(grep -oP 'port\s*\=\s*\d+' ../app.py | tr -d ' ' | md5sum)
 if [ "$PORT_HASH" != "7cd92569a5359d40fcf3c16b501175e0  -" ]
 then
+  echo "$PORT_HASH"
   echo "Bad port"
   exit 1
 fi
