@@ -1,3 +1,4 @@
+export LC_ALL=C.UTF-8
 git checkout feature/myfeature
 
 ENDPOINTS_ACTUAL=$(grep -oP '@app\.route\(\"\/\w*\"\)' ../app.py)
