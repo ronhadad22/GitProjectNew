@@ -1,1 +1,2 @@
-feature upgrade
+#!bash
+ls
