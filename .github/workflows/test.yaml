@@ -11,8 +11,9 @@ jobs:
       - name: Check version
         run : |
           sudo apt-get update && sudo apt-get install jq
-          
+          echo $(cat version.json | jq -r '.version')
           release_version=${GITHUB_REF#*release-}
+          echo $release_version
           if [ "$(cat version.json | jq -r '.version')" != "$release_version" ]
           then
             echo -e "\n\nrelease version mismatches the version written in version.json. Please change version.json and commit your change.\n\n"
