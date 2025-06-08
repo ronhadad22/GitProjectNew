@@ -1,8 +1,3 @@
-> [!IMPORTANT]
-> This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. Please [onboard the course][onboarding_tutorial] before starting. 
-> 
-> Before finishing this project, it's advisable to complete [any previous projects](https://github.com/exit-zero-academy/DevOpsTheHardWay?#studying-guide) if you haven't already done so.
-
 
 # Git Project [![][autotest_badge]][autotest_workflow]
 
